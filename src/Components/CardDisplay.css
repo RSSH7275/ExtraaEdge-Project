@@ -1,0 +1,33 @@
+/* .ant-card-body {
+  border-radius: 0 0 8px 8px;
+  text-align: left;
+   padding: 15px; 
+} */
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-card .ant-card-actions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #FAF9F6;
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    border-radius: 0 0 8px 8px;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-card .ant-card-body {
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+    text-align: left;
+}
+
+.card-image{
+  object-fit: fill;
+  height: 185px;
+  background-color: #F0F0F0;
+}
+
+.modal-Body{
+ text-align: right;
+}
+
+.modal-Body>div{padding-bottom: 6px;}
